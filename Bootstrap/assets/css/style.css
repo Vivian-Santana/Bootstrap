@@ -1,0 +1,22 @@
+.bg-footer {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* define os nome das linhas e funções de dimensionamento */
+}
+
+.footer-div {
+    display: grid;       /* linhas horizontais e verticais */
+    padding: 50px;      /* AREA DO CONTAINER */
+    background-color: rgba(5, 0, 5, 0.822);
+    place-items: center;
+    width: auto;
+    height: 300px;
+}
+.social-footer {
+    color: #f8f2f2;
+    font-size: 20px; /* TAMANHO DA FONTE */
+   
+}
+#social{
+    color:rgb(255, 255, 255) ; /* AQUI VOCE ESCOLHE A COR */
+
+}
