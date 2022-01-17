@@ -7,7 +7,7 @@ border: none;
 text-decoration: none;
 
 }
-/*style d footer*/
+/*style do footer*/
 .bg-footer {
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr; /* define os nome das linhas e funções de dimensionamento */
@@ -31,11 +31,20 @@ text-decoration: none;
 
 }
 /*style do formulario*/
+#menu li{
+    display: inline;
+}
+
+#menu li a:hover{
+    color: rgba(33, 196, 28, 0.993);
+}
+
 .contato-form{
     display: grid;
     place-items: center;
     margin-top: 2rem;
-    background: #a8f;
+    background: color:honeydew;
+    padding-top: 00px;
 }
 .contato-form form {
     display: flex;
@@ -54,10 +63,10 @@ button {
     border-radius: 2rem;
 }
 button:hover {
-    background-color: hsl(0, 11%, 28%);
+    background-color: grey;
 }
 #border{
-    background: rgb(255, 251, 251);
+    background: rgb(243, 243, 243);
     border-radius: 3rem;  
 }
 
@@ -70,4 +79,3 @@ button:hover {
     border-radius: 3rem;
     background: rgb(243, 243, 243);
 }
-
